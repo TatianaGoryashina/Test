@@ -1,14 +1,16 @@
 import math
 
 
-def square(side):
+def square():
+    side = int(input("Введите сторону квадрата: "))
     if isinstance(side, int):
-        return side * side
+        result = side * side
     else:
-        return math.ceil(side * side)
+        result = math.ceil(side * side)
+    print(f"Площадь квадрата: {result}")
 
 
-# Примеры использования:
-print(square(5))     # Вывод: 25
-print(square(5.5))   # Вывод: 31
-print(square(3.2))   # Вывод: 11
+square()
+
+
+
