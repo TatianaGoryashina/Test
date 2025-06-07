@@ -11,6 +11,3 @@ def square():
 
 
 square()
-
-
-

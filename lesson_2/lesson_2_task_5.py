@@ -13,6 +13,3 @@ def month_to_season():
     
 
 print(month_to_season())
-
-
-
