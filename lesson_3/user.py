@@ -4,11 +4,11 @@ class User:
         self.first_name = name
         self.last_name = lastname
 
-    def sayName(self):
-        print("Мое имя ", self.first_name)
+    def say_name(self):
+        print(f"Мое имя {self.first_name}")
 
-    def sayLastName(self):
-        print("Моя фамилия ", self.last_name)
+    def say_last_name(self):
+        print(f"Моя фамилия {self.last_name}")
 
-    def sayFullName(self):
-        print("Меня зовут", self.first_name, self.last_name)
+    def say_full_name(self):
+        print(f"Меня зовут {self.first_name}, {self.last_name}")
